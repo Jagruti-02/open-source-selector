@@ -27,7 +27,7 @@ function MainPage() {
     async function fetchData() {
       try {
         let searchedPosts=[];
-           const res  = await fetch('http://127.0.0.1:5000/similar_repos',{
+           const res  = await fetch(`${import.meta.env.VITE_BASE_URL}/similar_repos`,{
             method: 'POST',
             headers: {
               'Content-Type': 'application/json'
@@ -44,7 +44,7 @@ function MainPage() {
         
        
           
-          const res2  = await fetch('http://127.0.0.1:5000/similar_repos',{
+          const res2  = await fetch(`${import.meta.env.VITE_BASE_URL}/similar_repos`,{
             method: 'POST',
             headers: {
               'Content-Type': 'application/json'

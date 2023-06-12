@@ -69,7 +69,7 @@ Replace <your-firebase-api-key>, <your-firebase-auth-domain>, and <your-firebase
 * Auth Domain
 * Project ID
 
-You will need these values to set up the frontend configuration variables in the previous steps.
+  You will need these values to set up the frontend configuration variables in the previous steps.
 
 4. Set up Firestore collections and security rules according to your application's requirements. Refer to the Firebase documentation for more information on setting up Firestore.
 
