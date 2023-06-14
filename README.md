@@ -48,7 +48,7 @@ Replace all the above with your actual Firebase configuration values.
 # Backend Setup
 
 1. Open a new terminal and navigate to the project's backend directory:
-(Clone the following repository to start the backend server - https://github.com/navyasharma0203/oss-content-based-filtering)
+(Clone the following repository to start the backend server - https://github.com/navyasharma0203/oss-content-based-filtering
 
     * cd oss-content-based-filtering
 
@@ -58,7 +58,7 @@ Replace all the above with your actual Firebase configuration values.
     * pip install -r requirements.txt
 
 
-3. Upate the flask API server and run app.py.
+3. Upate the installations and run app.py.
 
     * python -u app.py (to run the backend server)
     * The backend server will start running on http://localhost:5000.
