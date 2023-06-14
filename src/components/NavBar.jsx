@@ -12,7 +12,9 @@ export default function NavBar() {
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <a href="#">
-              <h2 className="logo text-3xl font-bold text-blue-800">Selectify</h2>
+              <h2 className="logo text-3xl font-bold text-blue-800"><a href="#" onClick={() => {
+                  navigate('/main')
+                }}>Selectify</a></h2>
             </a>
             <div className="md:hidden">
               <button
@@ -54,10 +56,13 @@ export default function NavBar() {
         </div>
         <div>
           <div
-            className={`flex-1 justify-self-center pb-4 mt-8 md:block md:pb-0 md:mt-0 ${
-              navbar ? 'block' : 'hidden'
-            }`}
+            className=
+              {navbar 
+                ? "flex flex-col items-center justify-center space-y-8 md:flex md:flex-row md:space-y-0 md:space-x-6"
+                : "hidden md:flex md:flex-row md:space-x-6"
+              }
           >
+
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
               <li className="text-black hover:text-blue-600">
                 <a href="#" onClick={() => {
@@ -78,10 +83,12 @@ export default function NavBar() {
               <li className="text-black hover:text-blue-600">
                 <a href="#">Contact US</a>
               </li>
+              <li className="lg:pl-44">
+                <LoginButton />
+              </li>
             </ul>
           </div>
         </div>
-        <LoginButton />
       </div>
     </nav>
   );

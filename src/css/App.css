@@ -15,9 +15,6 @@ body, html {
   -webkit-font-smoothing: antialiased;
 }
 
-.bg{
-  background-color: #94acd1;
-}
 
 .logo{
   font-family: 'Dancing Script';
@@ -166,6 +163,7 @@ nav .free {
   font-weight: 600;
   display: flex;
   justify-content: center;
+  align-items: center;
   font-family: poppins;
 }
 
@@ -237,13 +235,6 @@ nav .free {
  transform: translateX(100%);
 }
 
-/* .save-box{
-  border-radius: 10px;
-  margin: 20px;
-  padding: 10px;
-  background-color: #e7eefe;
-  width: 30%;
-} */
 
 .repo-title{
   font-size: larger;
@@ -296,4 +287,24 @@ nav .free {
       justify-content: center;
       align-items: center;
     }
+
+    
+
+   
+  }
+
+  @media(max-width: 600px){
+    .l-box{
+      flex-direction: column;
+      padding-bottom: 10px;
+    }
+    
+    .profile-name{
+      margin-bottom: 10px;
+    }
+    
+    .log-btn{
+      width: 100%;
+    }
+
   }

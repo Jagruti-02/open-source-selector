@@ -92,45 +92,45 @@ function MainPage() {
   return (
     <>
       <NavBar />
-      <div class="main-box grid grid-cols-3 gap-2 w-full my-16 pl-20 relative">
+      <div class="main-box grid grid-cols-3 gap-2 w-full my-20 lg:pl-20 relative ">
         <div class="flex flex-col col-span-1 items-left m-5 p-5 pl-16 popular-box">
-          <h2 class="text-2xl mb-5 hd-box">Popular Searches</h2>
+          <h2 class="text-2xl mb-5 hd-box text-center">Popular Searches</h2>
 
           <ul>
             <a href="https://www.mozilla.org/en-US/firefox/new/">
-              <li class="font-mono text-base tbox"><a href="">Mozilla Firefox</a></li>
+              <li class="font-mono text-base tbox text-center"><a href="">Mozilla Firefox</a></li>
             </a>
             <a href="https://www.libreoffice.org/download/download-libreoffice/">
-              <li class="font-mono text-base tbox">LibreOffice</li>
+              <li class="font-mono text-base tbox text-center">LibreOffice</li>
             </a>
             <a href="https://www.openoffice.org/download/">
-              <li class="font-mono text-base tbox">Apache OpenOffice</li>
+              <li class="font-mono text-base tbox text-center">Apache OpenOffice</li>
             </a>
             <a href="https://www.linux.org/">
-              <li class="font-mono text-base tbox">Linux</li>
+              <li class="font-mono text-base tbox text-center">Linux</li>
             </a>
             <a href="https://www.blender.org/">
-              <li class="font-mono text-base tbox">Blender</li>
+              <li class="font-mono text-base tbox text-center">Blender</li>
             </a>
             <a href="https://gcc.gnu.org/">
-              <li class="font-mono text-base tbox">GNU Compiler</li>
+              <li class="font-mono text-base tbox text-center">GNU Compiler</li>
             </a>
             <a href="https://www.gimp.org/">
-              <li class="font-mono text-base tbox">Gimp</li>
+              <li class="font-mono text-base tbox text-center">Gimp</li>
             </a>
             <a href="https://www.python.org/">
-              <li class="font-mono text-base tbox">Python</li>
+              <li class="font-mono text-base tbox text-center">Python</li>
             </a>
             <a href="https://www.php.net/">
-              <li class="font-mono text-base tbox">PHP</li>
+              <li class="font-mono text-base tbox text-center">PHP</li>
             </a>
             <a href="https://shotcut.org/">
-              <li class="font-mono text-base tbox">Shotcut</li>
+              <li class="font-mono text-base tbox text-center">Shotcut</li>
             </a>
           </ul>
         </div>
 
-        <div class="flex flex-col col-span-2 items-center m-5 s-box">
+        <div class=" flex flex-col col-span-2 items-center m-5 s-box lg:mr-20">
           <h2 className="text-2xl my-5 stext ">Search</h2>
           <div className="flex space-y-10 flex-col">
             <div className="flex items-center m-15">

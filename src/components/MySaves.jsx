@@ -42,8 +42,8 @@ export default function MySaves() {
     <div>
       <NavBar />
 
-      <div className="click-box">
-        <button className="click-btn" onClick={getData}>
+      <div className="click-box ">
+        <button className="click-btn mt-36 " onClick={getData}>
           Saved Repos
         </button>
         <div className="saveAll-box grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 max-w-10xl items-center mx-auto gap-16">

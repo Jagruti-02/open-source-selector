@@ -29,10 +29,10 @@ const LoginButton = () => {
   return (
     <>
       {user ? (
-        <div className="flex items-center">
-        <p className=" profile-name text-md font-bold hover:text-blue-900 py-2 px-4 rounded">Hi {user.displayName}</p>
+        <div className="l-box flex items-center">
+        <p className=" profile-name text-md font-bold hover:text-white py-2 px-4 rounded bg-gray-400 hover:bg-gray-500">Hi {user.displayName}</p>
         <button
-          className="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded"
+          className="log-btn bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 rounded px-4"
           onClick={handleSignOut}
         >
           Logout

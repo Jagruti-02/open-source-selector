@@ -29,10 +29,10 @@ function Repos({ posts, name, tags, desc }) {
 
   return (
     <>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 max-w-7xl items-center mx-auto gap-12">
+      <div className=" grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 max-w-7xl items-center mx-auto gap-12 pr-10">
         {posts.map(({ name, desc, link, tags, upforgrabs__link  }, index) => (
           <div
-            className="w-full rounded-lg shadow-md lg:max-w-sm m-4 grid gap-8 p-4 h-full"
+            className=" w-full rounded-lg shadow-md lg:max-w-sm m-4 grid gap-8 p-4 h-full pt-3"
             key={index}
           >
             <h4 className="text-xl font-semibold text-blue-500">{name}</h4>
