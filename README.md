@@ -17,23 +17,28 @@ To run this project, you will need the following:
 
 1. Clone the repository:
  
-   * git clone <repository-url>
+   * git clone <https://github.com/Jagruti-02/open-source-selector.git>
 
 2. Navigate to the project's frontend directory:
 
-   * cd application-selector-frontend
+   * cd open-source-selector
 
 3. Install the required dependencies:
 
-   * npm install
+   * npm install/ npm i
 
-4. Create a .env file in the root of the frontend directory and add the following variables:
+4. Create a .env.local file in the root of the frontend directory and add the following variables:
 
-    * REACT_APP_FIREBASE_API_KEY=<your-firebase-api-key>
-    * REACT_APP_FIREBASE_AUTH_DOMAIN=<your-firebase-auth-domain>
-    * REACT_APP_FIREBASE_PROJECT_ID=<your-firebase-project-id>
+      *  VITE_API_KEY=
+      *  VITE_AUTH_DOMAIN=
+      *  VITE_PROJECT_ID=
+      *  VITE_STORAGE_BUCKET=
+      *  VITE_MESSAGING_SENDER_ID=
+      *  VITE_APP_ID=
+      *  VITE_BASE_URL=http://localhost:5000
 
-Replace <your-firebase-api-key>, <your-firebase-auth-domain>, and <your-firebase-project-id> with your actual Firebase configuration values.
+
+Replace all the above with your actual Firebase configuration values.
 
 5. Start the frontend development server:
  
@@ -45,7 +50,7 @@ Replace <your-firebase-api-key>, <your-firebase-auth-domain>, and <your-firebase
 1. Open a new terminal and navigate to the project's backend directory:
 (Clone the following repository to start the backend server - https://github.com/navyasharma0203/oss-content-based-filtering)
 
-    * cd application-selector-backend
+    * cd oss-content-based-filtering
 
 
 2. Install the required Python packages:
@@ -55,6 +60,7 @@ Replace <your-firebase-api-key>, <your-firebase-auth-domain>, and <your-firebase
 
 3. Upate the flask API server and run app.py.
 
+    * python -u app.py (to run the backend server)
     * The backend server will start running on http://localhost:5000.
 
 # Firebase Setup
@@ -68,6 +74,9 @@ Replace <your-firebase-api-key>, <your-firebase-auth-domain>, and <your-firebase
 * API Key
 * Auth Domain
 * Project ID
+* Storage Bucket
+* Messaging sender ID
+* APP ID
 
   You will need these values to set up the frontend configuration variables in the previous steps.
 
